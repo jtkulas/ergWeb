@@ -1,0 +1,25 @@
+---
+title: "members"
+output: rmdformats::readthedown
+htmlwidgets: TRUE
+---
+
+# Meet our contributors! {.tabset .tabset-pills}
+
+## 2020-2021 (the **Rocketeers** `r emo::ji("rocket")`)
+
+```{r members2021, echo=FALSE}
+
+members2021 <- read.csv("members2021.csv")
+kableExtra::kable(members2021, col.names=NULL)
+
+```
+
+## 2019-2020 (the **Traiblazers** `r emo::ji("glowing star")`)
+
+```{r members2020, echo=FALSE}
+
+members2020 <- read.csv("members2020.csv")
+kableExtra::kable(members2020, col.names=NULL)
+
+```

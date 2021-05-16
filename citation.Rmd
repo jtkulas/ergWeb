@@ -1,0 +1,12 @@
+---
+title: "Citations"
+output: rmdformats::readthedown
+bibliography: [book.bib]
+csl: apa.csl
+nocite: |
+  @mentor, @github, @naissance, @consultant, @markdown, @engage, @onepage
+---
+
+![](https://media.giphy.com/media/atcqQ5PuX41J6/giphy.gif)
+
+# References `r emo::ji("books")`{-}

@@ -1,0 +1,19 @@
+name: "Eagle I.O"
+navbar:
+  title: "Eagle I.O"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Resources"
+      href: tutorials.html
+    - text: "Selection"
+      href: selection.html
+    - text: "Citations"
+      href: citation.html
+    - text: "Members"
+      href: members.html
+    - text: "Contact Us!"
+      href: location.html
+output_dir: "docs"

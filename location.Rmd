@@ -1,0 +1,37 @@
+---
+title: "location"
+output: rmdformats::readthedown
+htmlwidgets: TRUE
+---
+
+# We'd `r emo::ji("heart")` to hear from you!
+
+<p align="center">
+![](https://media.giphy.com/media/USmX7rjhopwic6kekl/giphy.gif)
+</p>
+
+```{r include=FALSE}
+library(leaflet)
+library(dplyr)
+library(reticulate)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+hc_gdpr <- leaflet() %>%
+  setView(lng=-74.1992, lat=40.8610, zoom=16) %>%
+  addTiles() %>%
+  addMarkers(lng=-74.1992, lat=40.8610, popup="Who dat?")
+
+htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
+hc_gdpr
+## helpful(?) for interactive plots in GitPages sites:
+
+## http://ryankuhn.net/blog/How-To-Use-Plotly-With-Jekyll
+
+```
+
+## Eagle I.O:
+
+1 Normal Avenue  
+Montclair, NJ 07043  
+[eagleio@montclair.edu](mailto: eagleio@montclair.edu)

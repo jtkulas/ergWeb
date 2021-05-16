@@ -1,0 +1,12 @@
+---
+title: "Engagement"
+output: html_document
+---
+
+![](images/engage.jpeg)
+
+# Employee Engagement
+
+The purpose of the Comprehensive Workplace Engagement Assessment (CWEA) is to establish current levels of engagement and productivity at a given company as well as identify areas that are negatively affecting these engagement and productivity levels. Through identification of these areas, Eagle I.O consultants can provide the necessary tools to increase these levels and improve the workplace culture at any company. 
+
+The engagement product will aggregate two scales: **Absorption**, **Vigor**, & **Enthusiasm** and **Cognition**, **Affect**, & **Behavior**. When fully launched, the intent will be to perform academic analyses, such as construct validation, and to collect norms. The process is documented within the [Technical Report](https://bookdown.org/kulasj/engagetech/), which includes the: (1) construction and initial findings, (2) user manual and norms description, (3) feedback report, and (4) localized validation studies. 

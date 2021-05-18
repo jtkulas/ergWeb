@@ -18,9 +18,10 @@ library(reticulate)
 
 ```{r, echo=FALSE, warning=FALSE}
 hc_gdpr <- leaflet() %>%
-  setView(lng=-74.1992, lat=40.8610, zoom=16) %>%
+  setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=16) %>%
   addTiles() %>%
-  addMarkers(lng=-74.1992, lat=40.8610, popup="Who dat?")
+  addMarkers(lng= -93.24649681376336, lat=44.99948959471243, popup="Here we are!")
+
 
 htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
 hc_gdpr

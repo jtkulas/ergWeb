@@ -17,10 +17,19 @@ library(reticulate)
 ```
 
 ```{r, echo=FALSE, warning=FALSE}
+
+content <- paste(sep = "<br/>",
+  "<b><a href='http://jtkulas.github.io/ergweb/'>erg HQ</a></b>",
+  "945 Broadway St NE",
+  "Minneapolis, MN 55413"
+)
+
 hc_gdpr <- leaflet() %>%
   setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=16) %>%
   addTiles() %>%
-  addMarkers(lng= -93.24649681376336, lat=44.99948959471243, popup="Here we are!")
+  addPopups(-93.24649681376336, 44.99948959471243, content,
+    options = popupOptions(closeButton = FALSE)
+  )
 
 
 htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
@@ -31,8 +40,8 @@ hc_gdpr
 
 ```
 
-## Eagle I.O:
+## erg:
 
-1 Normal Avenue  
-Montclair, NJ 07043  
-[eagleio@montclair.edu](mailto: eagleio@montclair.edu)
+945 Broadway St NE  
+Minneapolis, MN 55413 
+[kulasj@montclair.edu](mailto: kulasj@montclair.edu)

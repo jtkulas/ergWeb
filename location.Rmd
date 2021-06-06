@@ -19,7 +19,7 @@ library(reticulate)
 ```{r, echo=FALSE, warning=FALSE}
 
 content <- paste(sep = "<br/>",
-  "<b><a href='http://jtkulas.github.io/ergweb/'>erg HQ</a></b>",
+  "<b><a href='jtkulas.github.io/ergweb/'>erg HQ</a></b>",
   "945 Broadway St NE",
   "Minneapolis, MN 55413"
 )

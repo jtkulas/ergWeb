@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6, legend {
+    color: #4DC0DF;
+}
+
+#nav-top span.glyphicon {
+    color: #4DC0DF;
+}
+
+#table-of-contents header {
+    color: #4DC0DF;
+}
+
+#table-of-contents h2 {
+    background-color: #4DC0DF;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

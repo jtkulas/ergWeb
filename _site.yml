@@ -1,6 +1,6 @@
-name: "Eagle I.O"
+name: "erg homepage"
 navbar:
-  title: "Eagle I.O"
+  title: "erg"
   left:
     - text: "Home"
       href: index.html
@@ -8,8 +8,6 @@ navbar:
       href: projects.html
     - text: "Resources"
       href: tutorials.html
-    - text: "Selection"
-      href: selection.html
     - text: "Citations"
       href: citation.html
     - text: "Members"

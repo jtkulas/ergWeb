@@ -1,6 +1,6 @@
 ---
 title: "location"
-output: rmdformats::readthedown
+output: rmdformats::robobook
 htmlwidgets: TRUE
 ---
 

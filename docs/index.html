@@ -18,9 +18,9 @@
         <script src="site_libs/navigation-1.1/tabsets.js"></script>
         <link href="site_libs/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
         <script src="site_libs/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
-        <link href="site_libs/readthedown-0.1/readthedown.css" rel="stylesheet" />
-        <link href="site_libs/readthedown-0.1/readthedown_fonts_embed.css" rel="stylesheet" />
-        <script src="site_libs/readthedown-0.1/readthedown.js"></script>
+        <link href="site_libs/robobook-0.1/robobook.css" rel="stylesheet" />
+        <link href="site_libs/robobook-0.1/robobook_fonts_embed.css" rel="stylesheet" />
+        <script src="site_libs/robobook-0.1/robobook.js"></script>
     
     
     
@@ -109,12 +109,34 @@
 <body class="preload">
 
    	
-         <!-- readthedown start -->   
-   <div id="content" data-toggle="wy-nav-shift">
-     <nav id="nav-top" role="navigation" aria-label="top navigation">
-       <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-     </nav>
-         
+            <!-- robobook start -->   
+   <div class="book with-summary">
+      <div class="book-summary">
+        <ul>
+          <li class="title">ERG</li>
+          <li class="divider"></li>
+        </ul>
+        <nav role="navigation" id="toc">
+          <ul>
+          <li><a href="#erg"><strong>erg</strong></a>
+          <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#what-we-do">What We Do</a></li>
+          </ul></li>
+          </ul>
+        </nav>
+        <ul class="authors">
+          <li class="divider"></li>
+                            </ul>     
+      </div>
+      <div class="book-body fixed">
+        <div class="body-inner">
+            <a class="btn pull-left js-toolbar-action toggle-sidebar" aria-label="Toggle Sidebar" title="Toggle Sidebar" href="#">
+              <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+            <div class="page-inner">
+              <section id="content" class="normal">
+      
    
       
       <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -142,9 +164,6 @@
         <a href="citation.html">Citations</a>
       </li>
       <li>
-        <a href="members.html">Members</a>
-      </li>
-      <li>
         <a href="location.html">Contact Us!</a>
       </li>
             </ul>
@@ -157,28 +176,12 @@
         
       <h1 class="title">ERG</h1>
       
-         <!-- readthedown authors -->
-   <div id="sidebar">
-    <h2><a href="#content">ERG</a></h2>
-    <div id="toc">
-      <ul>
-      <li><a href="#erg"><strong>erg</strong></a>
-      <ul>
-      <li><a href="#about-us">About Us</a></li>
-      <li><a href="#what-we-do">What We Do</a></li>
-      </ul></li>
-      </ul>
-    </div>
-    <div id="postamble" data-toggle="wy-nav-shift" class="status">
-                </div>
-   </div>
-     
+        
 
    
       
    
 <!-- Don't indent these lines or it will mess pre blocks indentation --> 
-<div id="main">
 <div class="row" style="padding-top: 30px;">
 <div id="erg" class="section level1 col-sm-6">
 <h1><strong>erg</strong></h1>
@@ -194,17 +197,23 @@
 <div class="col-sm-6">
 <p><a href = "https://eagle-io.weebly.com/"> <img src="images/erg5.png" /> </a></p>
 </div>
-</div>
 
    
    
-            
+           </section>
+  </div>
+  </div>
+  </div>
+  </div>
+      
       
 
   <script>
     $(document).ready(function () {
 
-			
+		// add bootstrap table styles to pandoc tables
+	$('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+		
  		
 	    });
   </script>

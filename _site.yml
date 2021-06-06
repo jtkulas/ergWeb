@@ -10,8 +10,6 @@ navbar:
       href: tutorials.html
     - text: "Citations"
       href: citation.html
-    - text: "Members"
-      href: members.html
     - text: "Contact Us!"
       href: location.html
 output_dir: "docs"

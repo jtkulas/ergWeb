@@ -18,9 +18,9 @@
         <script src="site_libs/navigation-1.1/tabsets.js"></script>
         <link href="site_libs/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
         <script src="site_libs/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
-        <link href="site_libs/readthedown-0.1/readthedown.css" rel="stylesheet" />
-        <link href="site_libs/readthedown-0.1/readthedown_fonts_embed.css" rel="stylesheet" />
-        <script src="site_libs/readthedown-0.1/readthedown.js"></script>
+        <link href="site_libs/robobook-0.1/robobook.css" rel="stylesheet" />
+        <link href="site_libs/robobook-0.1/robobook_fonts_embed.css" rel="stylesheet" />
+        <script src="site_libs/robobook-0.1/robobook.js"></script>
     
     
     
@@ -108,12 +108,30 @@
 <body class="preload">
 
    	
-         <!-- readthedown start -->   
-   <div id="content" data-toggle="wy-nav-shift">
-     <nav id="nav-top" role="navigation" aria-label="top navigation">
-       <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-     </nav>
-         
+            <!-- robobook start -->   
+   <div class="book with-summary">
+      <div class="book-summary">
+        <ul>
+          <li class="title">Citations</li>
+          <li class="divider"></li>
+        </ul>
+        <nav role="navigation" id="toc">
+          <ul>
+          <li><a href="#references">References 📚</a></li>
+          </ul>
+        </nav>
+        <ul class="authors">
+          <li class="divider"></li>
+                            </ul>     
+      </div>
+      <div class="book-body fixed">
+        <div class="body-inner">
+            <a class="btn pull-left js-toolbar-action toggle-sidebar" aria-label="Toggle Sidebar" title="Toggle Sidebar" href="#">
+              <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+            <div class="page-inner">
+              <section id="content" class="normal">
+      
    
       
       <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -141,9 +159,6 @@
         <a href="citation.html">Citations</a>
       </li>
       <li>
-        <a href="members.html">Members</a>
-      </li>
-      <li>
         <a href="location.html">Contact Us!</a>
       </li>
             </ul>
@@ -156,24 +171,12 @@
         
       <h1 class="title">Citations</h1>
       
-         <!-- readthedown authors -->
-   <div id="sidebar">
-    <h2><a href="#content">Citations</a></h2>
-    <div id="toc">
-      <ul>
-      <li><a href="#references">References 📚</a></li>
-      </ul>
-    </div>
-    <div id="postamble" data-toggle="wy-nav-shift" class="status">
-                </div>
-   </div>
-     
+        
 
    
       
    
 <!-- Don't indent these lines or it will mess pre blocks indentation --> 
-<div id="main">
 <p><img src="https://media.giphy.com/media/atcqQ5PuX41J6/giphy.gif" /></p>
 <div id="references" class="section level1 unnumbered">
 <h1 class="unnumbered">References 📚</h1>
@@ -201,17 +204,23 @@ Simonet, D. V., Osorio-Duffoo, C., Figueiras, D., Notari, C., D’Souza, N., &am
 </div>
 </div>
 </div>
-</div>
 
    
    
-            
+           </section>
+  </div>
+  </div>
+  </div>
+  </div>
+      
       
 
   <script>
     $(document).ready(function () {
 
-			
+		// add bootstrap table styles to pandoc tables
+	$('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+		
  		
 	    });
   </script>

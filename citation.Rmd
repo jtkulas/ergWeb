@@ -1,6 +1,6 @@
 ---
 title: "Citations"
-output: rmdformats::readthedown
+output: rmdformats::robobook
 bibliography: [book.bib]
 csl: apa.csl
 nocite: |

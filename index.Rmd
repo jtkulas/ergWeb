@@ -1,6 +1,6 @@
 ---
 title: "ERG"
-output: rmdformats::readthedown
+output: rmdformats::robobook
 css: custom.css
 ---
 

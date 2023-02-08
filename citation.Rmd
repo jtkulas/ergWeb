@@ -2,7 +2,7 @@
 title: "Citations"
 output: rmdformats::robobook
 bibliography: [book.bib]
-csl: apa.csl
+csl: apa7.csl
 nocite: |
   @mentor, @github, @naissance, @consultant, @markdown, @engage, @onepage
 ---
